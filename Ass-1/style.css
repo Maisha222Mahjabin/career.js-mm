@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background:linear-gradient(to battom #dbeafe #ace6f8);
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #f9fafb;
+  
+}
+
+.top-btn {
+  background: orange;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem;
+  background: #e0f2fe;
+  margin: 1rem;
+  border-radius: 20px;
+}
+
+.hero img {
+  width: 200px;
+  margin-bottom: 1rem;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+padding: 2px;
+}
+
+.main-btn {
+  padding: 0.6rem 1.2rem;
+  background: #facc15;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.why-web {
+  background: #f9f9fb;
+  padding: 20px;
+  margin-bottom: 1rem;
+  text-align: center;
+
+
+  
+}
+
+.why-web h3 {
+
+  text-align: center;
+  margin-bottom: 4rem;
+  padding: 10px;
+}
+
+.why-content {
+  background:linear-gradient(to battom #f0fffa #e0f7ff);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap ;
+  justify-content: center;
+ align-items: center;
+ gap: 20px;
+ margin: 40px;
+ padding: 40px;
+ border-radius: 20px;
+
+}
+
+.why-content img {
+  width: 300px;
+}
+
+.why-content .text {
+  max-width: 300px;
+}
+
+.inspiration {
+  text-align: center;
+  padding: 2rem;
+  background: #e0e5fe;
+  margin: 1rem;
+  border-radius: 20px;
+}
+
+.targets {
+  background: #e0e7fe;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
+
+footer {
+  background: #111827;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+footer .social a {
+  color: #ffffff;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+
